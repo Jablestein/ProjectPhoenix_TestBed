@@ -1,0 +1,32 @@
+.carouselBody {
+	position: relative;
+	display: block;
+}
+
+.carousel-indicators {
+    bottom: 25px;
+}
+
+.controlsBlock {
+   	position: relative;
+   	top: 200px;
+   	width: 177px;
+   	margin: 0 auto;
+   	z-index: 1;
+   	height: 24px;
+   	background: green;
+}
+
+.carousel-item img {
+	display: block;
+	max-width: 50;
+	height: 400px !important;
+	margin: 0 auto;
+	background: white;
+}
+
+body{
+	background: blue;
+}
+
+
