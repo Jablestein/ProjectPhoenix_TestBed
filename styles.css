@@ -1,5 +1,5 @@
 .carousel {
-	width: 640px;
+	/*width: 640px;*/
 	height: 400px;
 	background: #ccc;
 	margin: auto;
@@ -43,4 +43,8 @@
   	justify-content: space-evenly;
   	width: 30%;
   	margin: 19px auto;
+}
+
+.jumbotron {
+	margin-bottom: 0;
 }
