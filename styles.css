@@ -1,8 +1,9 @@
 .carousel {
-	/*width: 640px;*/
+	width: 640px;
 	height: 400px;
 	background: #ccc;
-	margin: auto;
+	margin:  50px auto;
+
 }
 
 .carousel-inner,
@@ -27,16 +28,16 @@
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
 	position: absolute;
-	bottom: 20px;
+	bottom: 50;
  	/* 20px up from the bottom of the carousel-control */
 }
 
 .carousel-control-prev-icon {
-  	right: 0;
+  	right: 200px;
 }
 
 .carousel-control-next-icon {
-  	left: 0;
+  	left: 200px;
 }
 
 .carousel-indicators {
@@ -48,3 +49,11 @@
 .jumbotron {
 	margin-bottom: 0;
 }
+
+#socialBar {
+	padding: 0;
+	height: 25px;
+}
+
+
+
