@@ -10,17 +10,17 @@
 .carousel-item > img {
 	width: 100%;
 	height: 100%; /* this ensures the carousel fills & fits in the box we set up above */
-	object-fit: contain; /* object-fit: cover might be preferable. 
-                          Removing object-fit  makes the image stretched/squashed when it 
-                          doesn't match the carousel's aspect ratio */
+	/*object-fit: contain; /* object-fit: cover might be preferable.
+                          Removing object-fit  makes the image stretched/squashed when it
+                          doesn't match the carousel's aspect ratio */*/
 }
 
 .carousel-control-prev,
 .carousel-control-next {
 	width: 35%;
-	/* Bootstrap adds 
+	/* Bootstrap adds
 	position: absolute;
-	height: 100%, 
+	height: 100%,
 	so we don't need to. */
 }
 
@@ -44,5 +44,3 @@
   	width: 30%;
   	margin: 19px auto;
 }
-
-
