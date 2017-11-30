@@ -54,10 +54,11 @@
 	padding: 0;
 	height: 25px;
 }
-
-.btn-group {
-	margin: 20px auto;
+ul.list-inline>li {
+	margin-right: 0x;
 }
 
-
-
+#spanspacing {
+	padding: 50px;
+	margin: 50px;
+}
